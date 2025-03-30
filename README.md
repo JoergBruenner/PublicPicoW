@@ -1,6 +1,10 @@
 # PublicPicoW
-Tutorials and sample code for Raspberry Pico W
+Tutorials and sample code for Raspberry Pico W.
 
-MQTT Sample send a MQTT message to a local MQTT Server
+The samples were compiled in a Windows environment. The Pico SDK v 2.1.1 is used. It's installed in the current user directory. Same is valid to Pico extras API.
 
-Check Time connects to a SNTP Server and prints out time and epoch timestamp
+##MQTT Sample 
+Sends a MQTT message to a local MQTT Server.
+
+##Check Time
+Connects to a SNTP Server and prints out time and epoch timestamp.
