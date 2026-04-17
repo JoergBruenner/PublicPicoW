@@ -11,6 +11,8 @@ Sends a MQTT message to a local MQTT Server.
 ## OTA Update With WiFi Config 
 The Pico W checks if it has a valid WiFi configuration in its flash memory. If there is none or a reset signal (GPIO4 high) it is waiting in Accesspoint mode for WiFi configuration data. After successful WiFi connection it performs an OTA update. It connects to UPDATE_SERVER and checks if there is a newer version of its firmware. It installs it on flash and reboots.
 
+Code expects a running http server at UPDATE_SERVER. The new firmware has to be UPDATE_SERVER/firmware.bin. The version is in file UPDATE_SERVER/version.txt. 
+
 Add your code at line 448.
 
 ## Check Time
